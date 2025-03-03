@@ -1,6 +1,7 @@
 
 # XDM Namspacing
 
+
 ## Introduction
 
 An often overlooked but important part of XDM is that all schemas and fields have a namespace.  Name spacing is the key to make XDM extensible and prevents field collisions as different schema components are brought together. Name spacing allows a user to say field X in namespace Y means something different than the same field X in name space Z. For example, XDM schemas today have a standard "age" field that exists in the "xdm" namespace (xdm:age), but a user is free to create their own "age" field under a different namespace (adobe:age) and both can coexist together but have a different underlying meaning or constraints. 
